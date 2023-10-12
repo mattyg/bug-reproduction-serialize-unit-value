@@ -1,7 +1,5 @@
 use hdk::prelude::*;
 use holochain::{conductor::{config::ConductorConfig, api::error::ConductorApiError}, sweettest::*, prelude::DnaFile};
-use dna_properties::GameIdentityDnaProperties;
-use types::UsernameAttestation;
 use holochain::test_utils::consistency_60s;
   
 #[tokio::test(flavor = "multi_thread")]
