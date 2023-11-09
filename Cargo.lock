@@ -4539,6 +4539,7 @@ dependencies = [
  "hdk",
  "holochain",
  "serde",
+ "tokio",
 ]
 
 [[package]]

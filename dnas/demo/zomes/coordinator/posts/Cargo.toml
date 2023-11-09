@@ -12,4 +12,6 @@ hdk = { workspace = true }
 serde = { workspace = true }
 
 [dev-dependencies]
-holochain = { workspace = true,  default-features = false, features = ["test_utils"] }
+holochain = { workspace = true, default-features = false, features = ["test_utils"] }
+hdk = { workspace = true, features = ["encoding", "test_utils"] }
+tokio = "1.33.0"
